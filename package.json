@@ -1,6 +1,6 @@
 {
   "name": "@jsstate/inputmask",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "input mask",
   "main": "dist/index.js",
   "types": "types",
@@ -17,6 +17,11 @@
     "url": "https://github.com/jsstate/inputmask/issues"
   },
   "homepage": "https://github.com/jsstate/inputmask#readme",
+  "files": [
+    "dist",
+    "types",
+    "README.md"
+  ],
   "devDependencies": {
     "typescript": "^4.5.5"
   }
