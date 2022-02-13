@@ -1,0 +1,19 @@
+{
+  "name": "inputmask",
+  "version": "0.0.1",
+  "description": "input mask",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsstate/inputmask.git"
+  },
+  "author": "Andrey Krasovsky <an.krasowsckij@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsstate/inputmask/issues"
+  },
+  "homepage": "https://github.com/jsstate/inputmask#readme"
+}
