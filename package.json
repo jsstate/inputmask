@@ -1,10 +1,11 @@
 {
-  "name": "inputmask",
-  "version": "0.0.1",
+  "name": "@jsstate/inputmask",
+  "version": "0.1.0",
   "description": "input mask",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "types",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jsstate/inputmask/issues"
   },
-  "homepage": "https://github.com/jsstate/inputmask#readme"
+  "homepage": "https://github.com/jsstate/inputmask#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
 }
