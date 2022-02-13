@@ -3,9 +3,17 @@
   "version": "0.1.2",
   "description": "input mask",
   "main": "dist/index.js",
+  "module": "dist/inputmask.esm.js",
+  "browser": "dist/inputmask.esm.js",
+  "unpkg": "dist/inputmask.umd.production.min.js",
   "types": "types",
   "scripts": {
-    "build": "tsc"
+    "build": "dts build --format cjs,esm,umd --tsconfig ./tsconfig.json",
+    "clean": "rimraf types dist"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -23,6 +31,7 @@
     "README.md"
   ],
   "devDependencies": {
+    "dts-cli": "^1.2.0",
     "typescript": "^4.5.5"
   }
 }

@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "module": "UMD",
     "moduleResolution": "Node",
-    "target": "ES2015",
     "lib": ["ESNext"],
     "allowJs": false,
     "checkJs": false,
